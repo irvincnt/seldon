@@ -1,0 +1,46 @@
+
+.sidebar {
+  width: 200px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+  &--logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 10px;
+  }
+  
+  &--item {
+    display: flex;
+    margin: 15px 12px 0px 0px;
+    padding-left: 12px;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 3px solid #f1f1f1;
+
+    &-active {
+      display: flex;
+      margin: 15px 12px 0px 0px;
+      padding-left: 12px;
+      align-items: center;
+      justify-content: space-between;
+      border-left: 3px solid red;
+    }
+
+    &__label {
+      display: inherit;
+      align-items: center;
+
+      p {
+        padding-left: 10px;
+        text-transform: uppercase;
+        font-weight: 100;
+      }
+    }
+  }
+
+}
