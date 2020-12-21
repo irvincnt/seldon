@@ -12,7 +12,6 @@ class Sidebar extends PureComponent {
       <div className="sidebar">
         <Link to='/home'>
         <div className="sidebar--logo">
-          
           <h1>Seldon</h1>
           <FontAwesomeIcon icon={faBars} size="md"/>
         </div>
@@ -23,7 +22,7 @@ class Sidebar extends PureComponent {
             <FontAwesomeIcon icon={faAlignLeft} size="md"/>
             <p>Grid</p>
           </div>
-          <FontAwesomeIcon icon={faCaretDown} size="sm"/>
+          {/* <FontAwesomeIcon icon={faCaretDown} size="sm"/> */}
         </div>
         </Link>
         <div className="sidebar--item-active">
@@ -31,14 +30,14 @@ class Sidebar extends PureComponent {
             <FontAwesomeIcon icon={faAlignLeft} size="md"/>
             <p>Flex box</p>
           </div>
-          <FontAwesomeIcon icon={faCaretDown} size="sm"/>
+          {/* <FontAwesomeIcon icon={faCaretDown} size="sm"/> */}
         </div>
         <div className="sidebar--item">
           <div className="sidebar--item__label">
             <FontAwesomeIcon icon={faAlignLeft} size="md"/>
-            <p>modales</p>
+            <p>modaless</p>
           </div>
-          <FontAwesomeIcon icon={faCaretDown} size="sm"/>
+          {/* <FontAwesomeIcon icon={faCaretDown} size="sm"/> */}
         </div>
       </div>
     </>
